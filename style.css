@@ -128,18 +128,25 @@ li {
   flex-direction: row;
 }
 
+.ul li {
+  margin-inline: 0.5rem;
+
+}
+
 #description {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
 
 }
 
 #sec1 div a {
   display: inline-block;
-  background-color: rgb(6, 0, 21);
+  background-color: rgb(12, 0, 41);
 
-  height: 5.75rem;
+  height: 2rem;
   width: 8rem;
 
   text-align: center;
@@ -147,9 +154,17 @@ li {
   justify-content: center;
   align-items: center;
 
-  border: 0.15rem solid rgb(13, 0, 47);
+  border: 0.15rem solid rgb(18, 0, 63);
 }
 
 #description h2 {
   font-size: 3.5rem;
+}
+
+#uls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 0.5rem;
 }
