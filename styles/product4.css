@@ -48,6 +48,107 @@ header ul li a:hover {
   color: #a877ff;
 }
 
+main {
+  margin-top: 8rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+#sec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+a {
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+#colors {
+  width: 3rem;
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+#description {
+  max-width: 500px;
+  margin: 2rem;
+}
+
+#description h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+#description p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+#description p strong {
+  font-size: 1.2rem;
+  color: #f5f5f5;
+}
+
+#description a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #1a002d;
+  color: #fff;
+  border: 2px solid #2a0054;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#description a:hover {
+  background-color: #2a0054;
+  border-color: #4d1f8c;
+}
+
+#sec1 img {
+  border-radius: 1rem;
+  max-width: 420px;
+}
+
+#uls {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.ul li {
+  background-color: #10001f;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  color: #f5f5f5;
+  border: 1px solid #2d1b5a;
+  list-style: none;
+  font-weight: 500;
+}
+
+.ul li:hover {
+  background-color: #1a0033;
+}
+
+
 footer {
   margin-top: 4rem;
   text-align: center;
