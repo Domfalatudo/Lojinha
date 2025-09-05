@@ -5,16 +5,25 @@
 }
 
 body {
+  display: flex;
+
+  flex-direction: column;
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
   font-family: Arial, Helvetica, sans-serif;
-  background: #121212;
+  background: rgb(4, 0, 13);
   color: #f5f5f5;
+
+  height: 150vh;
 }
 
 /* Cabeçalho */
 h1 {
-  padding: 2rem;
+  padding: 0rem;
   text-align: center;
-  display: flex;
 }
 
 .paginas {
@@ -22,3 +31,107 @@ h1 {
   align-items: center;
 }
 
+div {
+  text-align: center;
+
+  margin-block: 2rem;
+
+  background-color: rgb(8, 0, 27);
+}
+
+header {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+    height: 5rem;
+    width: 100vw;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    margin-bottom: 5rem;
+}
+
+header ul {
+    display: flex;
+
+    width: 40rem;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li {
+    display: flex;
+    background-color: rgb(6, 0, 21);
+
+    list-style: none;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 2.5rem;
+    width: 7rem;
+
+    border: 0.15rem solid rgb(13, 0, 47);
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+header ul li:hover {
+    transform: scale(1.1);
+}
+
+footer {
+  color: rgb(46, 0, 161);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+#sec1 {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+}
+
+li {
+  border-radius: 0.25rem;
+  margin-bottom: 0.2rem;
+  background-color: #f5f5f5;
+  color: black;
+  list-style: none;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+}
+
+#sec1 div a {
+  display: inline-block;
+  background-color: rgb(6, 0, 21);
+
+  height: 5.75rem;
+  width: 8rem;
+
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+
+  border: 0.15rem solid rgb(13, 0, 47);
+}
