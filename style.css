@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter";
 }
 
 body {
@@ -17,10 +20,9 @@ body {
   background: rgb(4, 0, 13);
   color: #f5f5f5;
 
-  height: 150vh;
+  height: 100vh;
 }
 
-/* Cabeçalho */
 h1 {
   padding: 0rem;
   text-align: center;
@@ -97,12 +99,14 @@ footer {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: rgb(13, 9, 34);
   width: 80vw;
-  height: 120vh;
-
+  height: 75vh;
+  border: #FFFFFF none 0px;
+  border-radius: 2rem;
+  margin-top: 4rem;
 
 }
 
@@ -111,8 +115,13 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+
   width: 75vw;
   gap: 4rem;
+  height: 50%;
+
+  margin-bottom: 7.5rem;
 }
 
 li {
@@ -130,21 +139,26 @@ li {
 
 .ul li {
   margin-inline: 0.5rem;
-
 }
 
 #description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 1rem;
 
+  border: #FFFFFF none 0px;
+  border-radius: 2rem;
+
+  padding-inline: 3rem;
+
+  height: 100%;
 }
 
 #sec1 div a {
   display: inline-block;
-  background-color: rgb(12, 0, 41);
+  background-color: rgb(8, 0, 27);
 
   height: 2rem;
   width: 8rem;
@@ -154,7 +168,7 @@ li {
   justify-content: center;
   align-items: center;
 
-  border: 0.15rem solid rgb(18, 0, 63);
+  border: 0.15rem solid rgb(13, 0, 46);
 }
 
 #description h2 {
@@ -167,4 +181,8 @@ li {
   align-items: flex-start;
   width: 100%;
   padding-left: 0.5rem;
+}
+
+p {
+  background-color: black;
 }
