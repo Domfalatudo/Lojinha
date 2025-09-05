@@ -47,3 +47,11 @@ header ul li a {
 header ul li a:hover {
   color: #a877ff;
 }
+
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  color: #2e00a1;
+  font-size: 0.9rem;
+  padding: 2rem;
+}
