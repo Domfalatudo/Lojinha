@@ -63,11 +63,6 @@ main {
   gap: 3rem;
 }
 
-a {
-  margin-bottom: 2rem;
-  display: flex;
-}
-
 #colors {
   width: 3rem;
   display: flex;
@@ -109,6 +104,7 @@ a {
   border-radius: 0.5rem;
   text-decoration: none;
   font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 #description a:hover {
